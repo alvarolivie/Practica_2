@@ -4,46 +4,35 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<style>
-  .flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
-  }
-
-  .flex-container > div {
-  background-color: #f1f1f1;
-  width = 33%;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-  }
-</style>
 
 <body>
-    <div class="flex-container">
-        <div>
-            <h3>
-                ZARA
-            </h3>
-            <iframe src="https://www.zara.com/es/en/" title="ZARA">
-            </iframe>
-        </div>
-        <div>
-            <h3>
-                Pull & Bear
-            </h3>
-            <iframe src="https://www.pullandbear.com/es/" title="Pull & Bear">
-            </iframe>
-        </div>
-        <div>
-            <h3>
-                Massimo Dutti
-            </h3>
-            <iframe src="https://www.massimodutti.com/es" title="Massimo Dutti">
-            </iframe>
-        </div>
-    </div>
+    <table align="center" width="100%">
+        <thead>
+        <tr>
+            <th align="center">
+                <h3>ZARA</h3>
+            </th>
+            <th align="center">
+                <h3>Pull & Bear</h3>
+            </th>
+            <th align="center">
+                <h3>Massimo Dutti</h3>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td align="center">
+                <img src="resources/ZARA.jfif">
+            </td>
+            <td align="center">
+                <img src="resources/PullBear.jfif">
+            </td>
+            <td align="center">
+                <img src="resources/Massimo.jfif">
+            </td>
+        </tr>
+        </tbody>
+    </table>
 </body>
 </html>
