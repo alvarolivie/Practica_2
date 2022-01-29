@@ -6,14 +6,15 @@
 </head>
 <style>
 .item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
+.item2 { grid-area: login; }
+.item3 { grid-area: info; }
+.item4 { grid-area: others; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header'
-    'menu main main';
+    'info login others';
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
@@ -29,10 +30,33 @@
 <body>
     <h1 align="center">La nueva marca de Inditex: Freaks</h1>
     <h2 align="center">El proyecto del año</h2>
-    <div class="grid-container">
-        <div class="item1">Header</div>
-        <div class="item2">Menu</div>
-        <div class="item3">Main</div>
+    <div class="grid-container" align="center">
+        <div class="item1">
+            <h3>
+               LA NUEVA OLA EN EL MUNDO DE LA MODA, UN CAMBIO EN LA INDUSTRIA
+            </h3>
+        </div>
+        <div class="item2">
+            <p>
+                <h5>
+                    Para ver todo sobre esta nueva marca usa este <a href="./login.html">link </a> y te mandara a un pagina que contiene toda la informacion que necesitas.
+                </h5>
+            </p>
+        </div>
+        <div class="item3">
+            <p>
+                <h5>
+                    Si quieres ser el primero en comprar en esta tienda de inditex haz click en este <a href="./login.html">link </a> y accederas a un pagina para ingresar tu informacion.
+                </h5>
+            </p>
+        </div>
+        <div class="item4">
+            <p>
+                <h5>
+                    Para ver el resto de nuestras marcas usa este <a href="./others.html">link </a> y accede a nuestra amplia seleccion de tiendas.
+                </h5>
+            </p>
+        </div>
     </div>
 </body>
 </html>
