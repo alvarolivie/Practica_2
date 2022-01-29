@@ -5,73 +5,35 @@
     <meta charset="utf-8">
 </head>
 <style>
-    .item1 { grid-area: header; }
-    .item2 { grid-area: menu; }
-    .item3 { grid-area: main; }
-    .item4 { grid-area: right; }
-    .item5 { grid-area: footer; }
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
 
-    .grid-container {
-      display: grid;
-      grid-template-areas:
-        'header header header header header header'
-        'menu main main main right right'
-        'menu footer footer footer footer footer';
-      grid-gap: 10px;
-      background-color: #2196F3;
-      padding: 10px;
-    }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'menu main main';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
 
-    .grid-container > div {
-      background-color: rgba(255, 255, 255, 0.8);
-      text-align: center;
-      padding: 20px 0;
-      font-size: 30px;
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
 </style>
 <body>
-    <h1>La nueva marca de Inditex: Freaks</h1>
-    <h2>El proyecto del año</h2>
-    <form action="/your_backend_url" method="post" enctype="application/x-www-form-urlencoded">
-        <label for="fname">First name:</label><br />
-        <input type="text" id="fname" name="name" required="required" placeholder="Enter your name" /><br />
-        <input type="submit" value="Submit">
-    </form>
-    <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-    </div>
-    <iframe src="https://www.as.com" title="AS">
-    </iframe>
+    <h1 align="center">La nueva marca de Inditex: Freaks</h1>
+    <h2 align="center">El proyecto del año</h2>
     <div class="grid-container">
         <div class="item1">Header</div>
         <div class="item2">Menu</div>
         <div class="item3">Main</div>
-        <div class="item4">Right</div>
-        <div class="item5">Footer</div>
     </div>
-    </p>
-    <table>
-        <thead>
-        <tr>
-            <th>Columna 1</th>
-            <th>Columna 2</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Valor 1</td>
-            <td>Valor 2</td>
-        </tr>
-        </tbody>
-    </table>
-    <p>
-
 </body>
 </html>
 
