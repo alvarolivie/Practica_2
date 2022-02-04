@@ -7,9 +7,7 @@ Mi practica dos es una pagina ficticia de Inditex. En principio es una nueva mar
 
 - La primera pagina, index.html, es la pagina que une al resto. Explica que contienen el resto de paginas.
 - La pagina login.html es un formulario que pide la informacion necesaria para contactar al cliente.
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+- La pagina information.html contiene un parrafo con la información sobre la marca ficticia.
+- La ultima pagina, others.html, contiene links en forma de imagenes a las diferentes paginas de inditex.
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
+Para unir las paginas cada decripcion en la pagina index.html contiene links a las distintas paginas. El resto de paginas tienen links para volver atras a la pagina principal.
